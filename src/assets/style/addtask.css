@@ -1,0 +1,13 @@
+div.addTask input[type="number"] {
+    text-align: right;
+    width: 50px;
+    
+    border-radius: 5px;
+}
+div.addTask input[type="texte"] {
+    width: 200px;
+    border-radius: 5px;
+}
+p.OK {
+    display: none;
+}

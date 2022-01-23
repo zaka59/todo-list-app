@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Gestion de tâches</title>
+        <link rel="stylesheet" href="style/style.css" />
+        <script src="vendor/react.development.js"></script>
+        <script>
+            function confirmAction() {
+                let confirmAction = confirm(
+                    "Voulez vous effacer la session actuelle? "
+                );
+                if (confirmAction) {
+                    localStorage.clear(); 
+                    alert("Session effacée.");
+                    document.location.reload();           
+                } else {
+                    alert("C'est noté!");
+                }
+            }
+        </script>
+        <script src="vendor/react-dom.development.js"></script>
+    </head>
+    <body>
+        <h1>Gestion de tâches</h1>
+        <div id="insertReactHere">
+            <!-- insertion point = element used as parent for react generated content -->
+        </div>
+        <button id="reset" onclick="confirmAction()">reset session</button>
+    </body>
+</html>

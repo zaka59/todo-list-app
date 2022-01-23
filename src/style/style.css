@@ -1,0 +1,11 @@
+body {
+    padding: 50px;
+    font: 14px Helvetica, sans-serif;
+}
+#reset{
+    
+    display: grid;
+    place-items: center;
+    color: #7da2a9;
+    text-shadow: #7da2a9 1px 0 10px;
+}

@@ -1,0 +1,36 @@
+body {
+    background-color: #f7f7f7;
+    display: grid;
+    place-items: center;
+}
+* {
+    border-radius: 8px;
+}
+div.taskApp {
+    position: relative;
+    min-height: 200px;
+    width: 350px;
+    text-align: center;
+    border: 2px solid #666;
+    padding: 20px;
+    background-color: #7da2a9;
+    box-shadow: #7da2a9 1px 0 10px;
+}
+
+h1 {
+    display: grid;
+    place-items: center;
+    color: #7da2a9;
+    text-shadow: #7da2a9 1px 0 10px;
+}
+#insertReactHere {
+    display: grid;
+    place-items: center;
+}
+#reset {
+    margin-top: 10px;
+    color: #f7f7f7;
+    background-color: #7da2a9;
+    font: 14px Helvetica, sans-serif;
+    box-shadow: #7da2a9 1px 0 10px;
+}

@@ -1,0 +1,29 @@
+div.task {
+    padding: 4px;
+    border: solid thin #ccc;
+    width: 330px;
+    text-align: left;
+    margin: 1px;
+
+    background-color: #7da2a9;
+    border-radius: 10px;
+}
+div.task div {
+    display: inline-block;
+    vertical-align: middle;
+}
+div.tasklist div.info {
+    margin-right: 0px;
+    width: 50%;
+    background-color: #7da2a9;
+}
+
+div.task:hover {
+    box-shadow: 0px 0px 2px 2px rgba(150, 150, 150, 1);
+}
+
+div.donetasklist div.info {
+    margin-right: 0px;
+    width: 100%;
+    background-color: #7da2a9;
+}

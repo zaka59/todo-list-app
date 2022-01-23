@@ -1,0 +1,16 @@
+div.scale {
+    background-color: white;
+    padding: 1px;
+    padding-left: 0;
+    margin: 0;
+    background-color: #7da2a9;
+}
+
+div.scale div {
+    font-size: 10px;
+    /* display : inline-flex; */
+    vertical-align: middle;
+
+    background-color: none;
+    display: inline-block;
+}
